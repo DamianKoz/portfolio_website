@@ -8,10 +8,10 @@ const cards = [
     link: "https://js-sorting.netlify.app/",
   },
   {
-    heading: "Damiansblog",
+    heading: "My own Programming Language",
     description:
-      "I also built a blog, on which you can take a look at my thinking.",
-    link: "https://damiansblog.com",
+      "Programming languages are fascinating tools that allow us to turn ideas into reality. To understand them better, I decided to built my own and explain the concept in a beginner friendly way.",
+    link: "#",
   },
   {
     heading: "Autonomous Driving",
