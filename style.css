@@ -35,13 +35,17 @@ body {
 }
 
 .intro-section h1 {
-  font-size: 48px;
+  font-size: 4.5vh;
+  font-weight: 100;
   margin-bottom: 20px;
 }
 
 .intro-section p {
   font-size: 24px;
-  margin-bottom: 40px;
+  font-weight: 100;
+}
+
+.intro-text {
 }
 
 .about-me {
@@ -49,6 +53,17 @@ body {
 }
 .about-me p {
   margin-bottom: 1.5rem;
+  font-size: large;
+}
+
+.divider {
+  width: 4em;
+  height: 1px;
+  margin: 1em auto;
+  border-radius: 50px;
+  /* background-color: #01ffc2; */
+  background-color: #fff;
+  position: relative;
 }
 
 /* Futuristic Design */
@@ -233,6 +248,12 @@ a:hover {
   body {
     font-size: 20px;
     line-height: 1.6;
+  }
+
+  .intro-section h1 {
+    font-size: 6.5vh;
+    font-weight: 100;
+    margin-bottom: 20px;
   }
 
   .container {
