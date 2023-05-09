@@ -169,7 +169,7 @@ a:hover {
 .contact-me {
   margin-top: 3rem;
   padding: 50px 0;
-  height: 90vh;
+  min-height: 90vh;
   /* background: linear-gradient(to bottom right, #6b0cff, #f22c5e);
   box-shadow: 0px 0px 50px #6b0cff; */
 }
