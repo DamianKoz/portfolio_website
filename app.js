@@ -8,14 +8,16 @@ const cards = [
     link: "https://js-sorting.netlify.app/",
   },
   {
-    heading: "Card 2",
-    description: "This is the description for card 2.",
-    link: "https://example.com",
+    heading: "Damiansblog",
+    description:
+      "I also built a blog, on which you can take a look at my thinking.",
+    link: "https://damiansblog.com",
   },
   {
-    heading: "Card 3",
-    description: "This is the description for card 3.",
-    link: "https://example.com",
+    heading: "Autonomous Driving",
+    description:
+      "I built a neural network from scratch to let cars drive autonomously.",
+    link: "https://auto-driving.netlify.app/",
   },
 ];
 
@@ -34,6 +36,7 @@ function createCard(card) {
   const linkElement = document.createElement("a");
   linkElement.classList.add("button");
   linkElement.href = card.link;
+  linkElement.target = "_blank";
   linkElement.textContent = "Learn More";
   cardElement.appendChild(linkElement);
 
