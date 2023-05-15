@@ -8,7 +8,7 @@ const cards = [
     link: "https://js-sorting.netlify.app/",
   },
   {
-    heading: "My own Programming Language",
+    heading: "[Currently Working on] My own Programming Language",
     description:
       "Programming languages are fascinating tools that allow us to turn ideas into reality. To understand them better, I decided to built my own and explain the concept in a beginner friendly way.",
     link: "#",
