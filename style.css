@@ -66,6 +66,10 @@ body {
   position: relative;
 }
 
+.additional-text {
+  display: none;
+}
+
 /* Futuristic Design */
 /* ================== */
 
@@ -126,6 +130,18 @@ a:hover {
   border-image: none;
   color: #fff;
   transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.show-more-button {
+  border: 1px solid #01ffc2;
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 0.5em;
+  color: #fff;
+}
+.show-more-button:hover {
+  border: 1px solid #01ffc2;
+  background-color: #01ffc2;
 }
 
 /* Containers */
