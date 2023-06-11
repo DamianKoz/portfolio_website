@@ -4,7 +4,7 @@ const cards = [
   {
     heading: "Sorting Algorithm Visualizer",
     description:
-      "Sorting algorithms are fascinating, and visualizing them even more.",
+      "Sorting algorithms are fascinating, and watching them work even more so.",
     link: "https://js-sorting.netlify.app/",
   },
   {
@@ -46,13 +46,3 @@ function createCard(card) {
 for (const card of cards) {
   cardsContainer.appendChild(createCard(card));
 }
-
-// Listens on a button, to show more text
-document.getElementById("showButton").addEventListener("click", function () {
-  var additionalText = document.querySelectorAll(".additional-text");
-  additionalText.forEach(function (text) {
-    text.style.display = "block";
-  });
-  this.style.display = "none";
-  this.parentElement.style.display = "none";
-});
