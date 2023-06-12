@@ -53,7 +53,8 @@ h1 {
   font-weight: 100;
 }
 
-.intro-text {
+.highlight-text {
+  color: var(--main-link-color);
 }
 
 .about-me {
@@ -214,7 +215,8 @@ a:hover {
 }
 
 .achievement-card,
-.work-item {
+.work-item,
+.techstack-card {
   flex-basis: 100%;
   margin-bottom: 40px;
   border-radius: 20px;
@@ -233,6 +235,11 @@ a:hover {
 .work-item {
   background-color: beige;
   color: #222;
+}
+
+.techstack-card h3 {
+  color: var(--main-link-color);
+  font-weight: lighter;
 }
 
 .work-item a {
