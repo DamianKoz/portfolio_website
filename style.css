@@ -100,7 +100,11 @@ h1 {
   margin-top: 0;
   margin-bottom: 10px;
 }
-
+.contact-card a,
+.contact-card p,
+.achievement-card a,
+.achievement-card p,
+.work-item p,
 .card p {
   font-size: 18px;
   margin-top: 0;
@@ -219,7 +223,6 @@ a:hover {
 .techstack-card {
   flex-basis: 100%;
   margin-bottom: 40px;
-  border-radius: 20px;
   background-color: #222;
   border-radius: 6px;
   padding: 20px;
@@ -228,13 +231,13 @@ a:hover {
   transition: all 0.3s ease-in-out;
 }
 
-.achievement-card h3 {
-  font-weight: lighter;
+.work-item {
+  border: 1px solid var(--main-link-color);
 }
 
-.work-item {
-  background-color: beige;
-  color: #222;
+.achievement-card h3 {
+  font-weight: lighter;
+  color: var(--main-link-color);
 }
 
 .techstack-card h3 {
@@ -243,7 +246,12 @@ a:hover {
 }
 
 .work-item a {
-  color: #222;
+  color: var(--main-link-color);
+}
+
+.work-item h3 {
+  font-weight: lighter;
+  color: var(--main-link-color);
 }
 
 .trophy-icon {
@@ -305,14 +313,14 @@ a:hover {
   align-items: center;
 }
 
-.contact-card a,
+/* .contact-card a,
 .contact-card p,
 .achievement-card a,
-.achievement-card p {
+.achievement-card p,
+.work-item p {
   font-size: 16px;
-  font-weight: 400;
   margin-top: 10px;
-}
+} */
 
 /* Footer Styles */
 footer {
