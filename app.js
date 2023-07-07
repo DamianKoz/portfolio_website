@@ -27,7 +27,7 @@ const cards = [
   {
     heading: "Smaller programming projects",
     description:
-      "I am in general trying to learn something new regularly. For this I am solving coding challenges, learning about threads in Python and just building smaller projects to learn something more",
+      "I am constantly trying to learn something new. For this I am solving coding challenges, learning about threads in Python and building smaller projects to learn something new.",
     link: "https://github.com/damiankoz",
   },
 ];
