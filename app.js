@@ -11,7 +11,8 @@ const cards = [
   {
     heading: "[Currently Learning] Scalable Go Microservices",
     description: `I am currently learning about highly available, scalable, resilient and distributed applications using Go. <br>
-      For this I am also reading <a href="https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321">Designing Data-Intensive Applications</a>, which is a fantastic book.`,
+    RabbitMQ is essential for scalable microservices as it enables efficient communication, decoupling of services, and fault-tolerant architectures. That is why I did a deep dive into it, and obtained a <a href="https://training.cloudamqp.com/certificate/f558405d-6d09-465a-9c2c-8c659755e9cf">RabbitMQ certificate.</a><br>
+    For this I am also reading <a href="https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321">Designing Data-Intensive Applications</a>, which is a fantastic book.`,
   },
   {
     heading: "[Currently Working on] My own Programming Language",
